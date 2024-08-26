@@ -1,12 +1,12 @@
 //Firebase
 #include <ESP8266Firebase.h>
 #include <ESP8266WiFi.h>
-#define REFERENCE_URL "https://smartkost-4e188-default-rtdb.firebaseio.com/"  // Your Firebase project reference url
+#define REFERENCE_URL "Your Firebase project reference url"
 Firebase firebase(REFERENCE_URL);
 
 //Set WiFi
-#define _SSID "san"          
-#define _PASSWORD "12345678" 
+#define _SSID "Your SSID"          
+#define _PASSWORD "Your Password" 
 
 //PZEM
 #include <PZEM004Tv30.h>
